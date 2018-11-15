@@ -30,6 +30,7 @@
 		6B75D45C1E081574001B77A1 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B75D45A1E081574001B77A1 /* CategoryCollectionViewCell.xib */; };
 		6B75D4601E0A8FFA001B77A1 /* CourseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B75D45E1E0A8FFA001B77A1 /* CourseDetailViewController.m */; };
 		6B75D4611E0A8FFA001B77A1 /* CourseDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B75D45F1E0A8FFA001B77A1 /* CourseDetailViewController.xib */; };
+		6B80B3A7219D62920097AE2D /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B80B3A4219D62920097AE2D /* MyViewController.m */; };
 		6BADC7CF1E13A5BE00755CE7 /* CacheListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADC7CD1E13A5BD00755CE7 /* CacheListViewController.m */; };
 		6BADC7D01E13A5BE00755CE7 /* CacheListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BADC7CE1E13A5BD00755CE7 /* CacheListViewController.xib */; };
 		6BADC7D41E13A79500755CE7 /* CacheListNoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BADC7D21E13A79500755CE7 /* CacheListNoCell.m */; };
@@ -68,7 +69,6 @@
 		6BDE34DE1DFE8BFC00D505F9 /* my144_110_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE34D51DFE8BFC00D505F9 /* my144_110_2@2x.png */; };
 		6BDE34E11DFE8E2500D505F9 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE34E01DFE8E2500D505F9 /* CategoryViewController.m */; };
 		6BDE34E41DFE8E4000D505F9 /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE34E31DFE8E4000D505F9 /* DownloadViewController.m */; };
-		6BDE34E71DFE8E7100D505F9 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE34E61DFE8E7100D505F9 /* MyViewController.m */; };
 		6BE17A101DFFE3C1000FF093 /* UploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE17A0F1DFFE3C1000FF093 /* UploadParam.m */; };
 		6BE17A131DFFE423000FF093 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE17A121DFFE423000FF093 /* HttpRequest.m */; };
 		6BE17A171DFFE653000FF093 /* ApiMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE17A161DFFE653000FF093 /* ApiMacro.m */; };
@@ -136,6 +136,8 @@
 		6B75D45D1E0A8FFA001B77A1 /* CourseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseDetailViewController.h; sourceTree = "<group>"; };
 		6B75D45E1E0A8FFA001B77A1 /* CourseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseDetailViewController.m; sourceTree = "<group>"; };
 		6B75D45F1E0A8FFA001B77A1 /* CourseDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseDetailViewController.xib; sourceTree = "<group>"; };
+		6B80B3A3219D62920097AE2D /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		6B80B3A4219D62920097AE2D /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		6BADC7CC1E13A5BD00755CE7 /* CacheListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheListViewController.h; sourceTree = "<group>"; };
 		6BADC7CD1E13A5BD00755CE7 /* CacheListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheListViewController.m; sourceTree = "<group>"; };
 		6BADC7CE1E13A5BD00755CE7 /* CacheListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CacheListViewController.xib; sourceTree = "<group>"; };
@@ -198,8 +200,6 @@
 		6BDE34E01DFE8E2500D505F9 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
 		6BDE34E21DFE8E4000D505F9 /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
 		6BDE34E31DFE8E4000D505F9 /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
-		6BDE34E51DFE8E7100D505F9 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyViewController.h; path = KoKoJia/Download/Controller/MyViewController.h; sourceTree = SOURCE_ROOT; };
-		6BDE34E61DFE8E7100D505F9 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyViewController.m; path = KoKoJia/Download/Controller/MyViewController.m; sourceTree = SOURCE_ROOT; };
 		6BE17A0E1DFFE3C1000FF093 /* UploadParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadParam.h; sourceTree = "<group>"; };
 		6BE17A0F1DFFE3C1000FF093 /* UploadParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadParam.m; sourceTree = "<group>"; };
 		6BE17A111DFFE423000FF093 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
@@ -281,6 +281,47 @@
 			path = PageControl;
 			sourceTree = "<group>";
 		};
+		6B80B3A0219D62920097AE2D /* My */ = {
+			isa = PBXGroup;
+			children = (
+				6B80B3A1219D62920097AE2D /* Other */,
+				6B80B3A2219D62920097AE2D /* Controller */,
+				6B80B3A5219D62920097AE2D /* Model */,
+				6B80B3A6219D62920097AE2D /* View */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		6B80B3A1219D62920097AE2D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		6B80B3A2219D62920097AE2D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B80B3A3219D62920097AE2D /* MyViewController.h */,
+				6B80B3A4219D62920097AE2D /* MyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6B80B3A5219D62920097AE2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B80B3A6219D62920097AE2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6BD9FBB91E0BC5D20021072B /* SGTopTitleView */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,10 +358,10 @@
 		6BDE34751DFE866A00D505F9 /* KoKoJia */ = {
 			isa = PBXGroup;
 			children = (
+				6B80B3A0219D62920097AE2D /* My */,
 				6BDE34A91DFE886D00D505F9 /* Category */,
 				6BDE34AE1DFE886D00D505F9 /* Download */,
 				6BDE34B31DFE886D00D505F9 /* Main */,
-				6BDE34B81DFE886D00D505F9 /* My */,
 				6BDE34BD1DFE890000D505F9 /* Expand */,
 				6BDE34BE1DFE890000D505F9 /* Other */,
 				6BDE34BF1DFE890000D505F9 /* Resource */,
@@ -529,48 +570,6 @@
 				6B5ABF511E014BC100CFDF16 /* MainTwoCollectionReusableView.m */,
 				6B5ABF7E1E0195D900CFDF16 /* MainOneCollectionReusableView.h */,
 				6B5ABF7F1E0195D900CFDF16 /* MainOneCollectionReusableView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		6BDE34B81DFE886D00D505F9 /* My */ = {
-			isa = PBXGroup;
-			children = (
-				6BDE34B91DFE886D00D505F9 /* Controller */,
-				6BDE34BA1DFE886D00D505F9 /* Model */,
-				6BDE34BB1DFE886D00D505F9 /* Other */,
-				6BDE34BC1DFE886D00D505F9 /* View */,
-			);
-			name = My;
-			path = Me;
-			sourceTree = "<group>";
-		};
-		6BDE34B91DFE886D00D505F9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				6BDE34E51DFE8E7100D505F9 /* MyViewController.h */,
-				6BDE34E61DFE8E7100D505F9 /* MyViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		6BDE34BA1DFE886D00D505F9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		6BDE34BB1DFE886D00D505F9 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		6BDE34BC1DFE886D00D505F9 /* View */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -891,7 +890,6 @@
 				6B5ABF781E01905C00CFDF16 /* TAAnimatedDotView.m in Sources */,
 				6B5ABF531E014BC100CFDF16 /* MainTwoCollectionReusableView.m in Sources */,
 				6B75D4571E07D203001B77A1 /* CourseCategoryModel.m in Sources */,
-				6BDE34E71DFE8E7100D505F9 /* MyViewController.m in Sources */,
 				6BDE34C81DFE8A2F00D505F9 /* BaseViewController.m in Sources */,
 				6BD9FBBE1E0BC5D20021072B /* SGTopTitleView.m in Sources */,
 				6BDE347B1DFE866A00D505F9 /* AppDelegate.m in Sources */,
@@ -907,6 +905,7 @@
 				6BADC7E01E13C32D00755CE7 /* PEVideoDownLoad.m in Sources */,
 				6B75D4601E0A8FFA001B77A1 /* CourseDetailViewController.m in Sources */,
 				6B5ABF5B1E01809E00CFDF16 /* MainTwoCollectionViewCell.m in Sources */,
+				6B80B3A7219D62920097AE2D /* MyViewController.m in Sources */,
 				6B5ABF4E1E0149D300CFDF16 /* MainOneCollectionViewCell.m in Sources */,
 				6BD9FBBF1E0BC5D20021072B /* UIView+SGExtension.m in Sources */,
 				6BDE34C31DFE895F00D505F9 /* DIYTabbarController.m in Sources */,
@@ -1078,7 +1077,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/chenshuanglin/Desktop/KoKoJia/KoKoJia/Expand/KoKoJia-Prefix.pch";
+				GCC_PREFIX_HEADER = "KoKoJia/Expand/KoKoJia-Prefix.pch";
 				INFOPLIST_FILE = KoKoJia/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1093,7 +1092,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/chenshuanglin/Desktop/KoKoJia/KoKoJia/Expand/KoKoJia-Prefix.pch";
+				GCC_PREFIX_HEADER = "KoKoJia/Expand/KoKoJia-Prefix.pch";
 				INFOPLIST_FILE = KoKoJia/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

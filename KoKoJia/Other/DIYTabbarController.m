@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.tabBar.translucent = NO;
     //创建主界面（精选）
     MainViewController * mainVC = [MainViewController new];
     mainVC.tabBarItem.image = [UIImage imageNamed:@"home144_110_1"];
