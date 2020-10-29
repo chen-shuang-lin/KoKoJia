@@ -72,6 +72,7 @@
 		6BE17A101DFFE3C1000FF093 /* UploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE17A0F1DFFE3C1000FF093 /* UploadParam.m */; };
 		6BE17A131DFFE423000FF093 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE17A121DFFE423000FF093 /* HttpRequest.m */; };
 		6BE17A171DFFE653000FF093 /* ApiMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE17A161DFFE653000FF093 /* ApiMacro.m */; };
+		6BF12860254AF6E8003DEE5C /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF1285F254AF6E8003DEE5C /* Test.m */; };
 		D409690C7F6A85D19B1F7E6C /* libPods-KoKoJia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D9ECEABDE8A78BFCF9B2D1 /* libPods-KoKoJia.a */; };
 /* End PBXBuildFile section */
 
@@ -206,6 +207,8 @@
 		6BE17A121DFFE423000FF093 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
 		6BE17A151DFFE653000FF093 /* ApiMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiMacro.h; sourceTree = "<group>"; };
 		6BE17A161DFFE653000FF093 /* ApiMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiMacro.m; sourceTree = "<group>"; };
+		6BF1285E254AF6E8003DEE5C /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		6BF1285F254AF6E8003DEE5C /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		8B2C6459D2503CED121050F5 /* Pods-KoKoJia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoKoJia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoKoJia/Pods-KoKoJia.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -358,6 +361,7 @@
 		6BDE34751DFE866A00D505F9 /* KoKoJia */ = {
 			isa = PBXGroup;
 			children = (
+				6BF1285D254AF6D7003DEE5C /* Test */,
 				6B80B3A0219D62920097AE2D /* My */,
 				6BDE34A91DFE886D00D505F9 /* Category */,
 				6BDE34AE1DFE886D00D505F9 /* Download */,
@@ -659,6 +663,15 @@
 			name = Macro;
 			sourceTree = "<group>";
 		};
+		6BF1285D254AF6D7003DEE5C /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				6BF1285E254AF6E8003DEE5C /* Test.h */,
+				6BF1285F254AF6E8003DEE5C /* Test.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		749B7401699CE3FB01D90842 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -756,6 +769,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -872,6 +886,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B75D45B1E081574001B77A1 /* CategoryCollectionViewCell.m in Sources */,
+				6BF12860254AF6E8003DEE5C /* Test.m in Sources */,
 				6BC5C5731E0302C5007CA864 /* MainJpHotModel.m in Sources */,
 				6BE17A101DFFE3C1000FF093 /* UploadParam.m in Sources */,
 				6B5ABF791E01905C00CFDF16 /* TADotView.m in Sources */,
